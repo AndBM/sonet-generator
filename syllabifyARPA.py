@@ -7,9 +7,10 @@
 # Vasundhara Gautam
 # October 3rd, 2017
 
-import pandas as pd
 import re
 import sys
+
+import pandas as pd
 
 # Sets required to check for valid onset and coda clusters
 VOICELESS = {"K", "P", "T", "F", "HH", "S", "SH", "TH", "CH"}

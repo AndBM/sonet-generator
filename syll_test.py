@@ -1,6 +1,7 @@
-import markovify
-import config
 import os
+
+import config
+import markovify
 
 config = config.Config()
 

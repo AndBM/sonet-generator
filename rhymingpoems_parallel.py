@@ -1,13 +1,14 @@
-import pronouncing as pnc
 import os
-import markovify
-import config
-import string
-import syllabifyARPA as ARPA
-import re
-from multiprocessing import Pool
-import sys  # For debugging exit
 import random
+import re
+import string
+import sys  # For debugging exit
+from multiprocessing import Pool
+
+import config
+import markovify
+import pronouncing as pnc
+import syllabifyARPA as ARPA
 
 # Strategy: Create one master sonnet. Then create all 14 other sonnets.
 # TODO: ALlow poem generator to have predefined first and last lines
