@@ -1,5 +1,6 @@
 import os
 
+
 class Config:
     def __init__(self):
 
@@ -9,7 +10,9 @@ class Config:
         self.markovify_max_overlap_ratio = 0.8
 
         # Poem
-        self.poem_avg_char_per_syl = 6 #pronouncing can calculate this accurately for each text
+        self.poem_avg_char_per_syl = (
+            6
+        )  # pronouncing can calculate this accurately for each text
         self.poem_first_syl_count = 6
         self.poem_second_syl_count = 7
 
